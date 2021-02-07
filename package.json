@@ -1,0 +1,22 @@
+{
+  "name": "movie-ql",
+  "version": "1.0.0",
+  "description": "movie API with GraphQL",
+  "main": "index.js",
+  "repository": "https://github.com/Jinho-mac/movieQL.git",
+  "author": "Jinho-mac <jinho020@naver.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/cli": "^7.12.13",
+    "@babel/core": "^7.12.13",
+    "@babel/node": "^7.12.13",
+    "@babel/preset-env": "^7.12.13",
+    "graphql-yoga": "^1.18.3"
+  },
+  "scripts": {
+    "start": "nodemon --exec babel-node index.js"
+  },
+  "devDependencies": {
+    "babel-node": "^0.0.1-security"
+  }
+}
