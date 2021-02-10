@@ -2,7 +2,7 @@ import { getMovies } from "../db/db";
 
 const resolvers = {
   Query: {
-    movies: (_, { limit, rating }) => getMovies(limit, rating)
+    movies: (_, { limit, minimum_rating }) => getMovies(limit, minimum_rating)
   }
 };
 
