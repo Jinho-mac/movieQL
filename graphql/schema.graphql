@@ -1,9 +1,12 @@
-type Nicolas {
-  name: String!
-  age: Int!
-  gender: String!
+type Movie {
+  id: Int!
+  title: String!
+  rating: Float!
+  summary: String!
+  language: String!
+  medium_cover_image: String!
 }
 
 type Query {
-  person: Nicolas!
+  movies(limit: Int, rating: Float): [Movie]!
 }
